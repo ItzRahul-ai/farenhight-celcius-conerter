@@ -1,21 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full">
+
 <head>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>farenhight to celcius</title>
 </head>
+
 <body class="h-full">
-<!-- main section -->
- <section class="h-full bg-[#8687FF] relative">
-<!-- for background buble -->
- <div class="">
-    <div class="h-50 w-50 rounded-full bg-white absolute lg:top-50 lg:left-70 md:top-80 md:left-50 top-40 left-20"></div>
-    <div class="h-50 w-50 rounded-full bg-white absolute lg:top-70 lg:right-70 md:top-50 md:right-50 top-80 right-20"></div>
-    <div class="h-30 w-30 rounded-full bg-white absolute lg:top-80 lg:left-60 md:top-70 md:left-90 top-70 left-10"></div>
-    <div class="h-30 w-30 rounded-full bg-white absolute lg:top-110 lg:left-90 md:top-70 md:left-50 top-20 left-30"></div>
-    <div class="h-30 w-30 rounded-full bg-white absolute lg:top-50 lg:right-90 md:top-100 md:right-70 top-50 right-20"></div>
-    <div class="h-30 w-30 rounded-full bg-white absolute lg:top-80 lg:right-130 md:top-40 md:right-70 top-90 right-10"></div>
- </div>
- </section>
+    <!-- main section -->
+    <section class="h-full bg-[#8687FF] relative py-10 px-5 md:px-10 lg:px-20 -z-1">
+        <!-- for background buble -->
+        <div class="-z-1">
+            <div
+                class="h-50 w-50 rounded-full bg-white absolute lg:top-50 lg:left-70 md:top-80 md:left-50 top-40 left-20 -z-1">
+            </div>
+            <div
+                class="h-50 w-50 rounded-full bg-white absolute lg:top-70 lg:right-70 md:top-50 md:right-50 top-80 right-20 -z-1">
+            </div>
+            <div
+                class="h-30 w-30 rounded-full bg-white absolute lg:top-80 lg:left-60 md:top-70 md:left-90 top-70 left-10 -z-1">
+            </div>
+            <div
+                class="h-30 w-30 rounded-full bg-white absolute lg:top-110 lg:left-90 md:top-70 md:left-50 top-20 left-30 -z-1">
+            </div>
+            <div
+                class="h-30 w-30 rounded-full bg-white absolute lg:top-50 lg:right-90 md:top-100 md:right-70 top-50 right-20 -z-1">
+            </div>
+            <div
+                class="h-30 w-30 rounded-full bg-white absolute lg:top-80 lg:right-130 md:top-40 md:right-70 top-90 right-10 -z-1">
+            </div>
+        </div>
+        <!-- content -->
+        <div class="container mx-auto bg-[#fff5] h-full rounded-xl px-4 py-4 overflow-hidden">
+            <!-- for heading and text section -->
+            <div>
+                <h1 class="uppercase font-bold text-center text-[50px]">Welcome</h1>
+                <p class="uppercase font-bold text-center text-sm">here you can convert farenhight to celcius or celcius
+                    to farenhight</p>
+            </div>
+            <!-- content devition -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 h-full">
+                <!-- left section -->
+                <div class="px-4 py-4 ">
+                    <h1 class="uppercase font-bold text-center text-xl">farenhight to celcius</h1>
+                    <!-- for input -->
+                    <div>
+                        <p class="font-bold text-xl mt-5 md:mt-10">Farenhight</p>
+                        <input type="text"
+                            class="mt-2 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Enter temperature in °F">
+                    </div>
+                </div>
+                <!-- right section -->
+                <div class="px-4 py-4 ">
+
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
